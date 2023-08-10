@@ -1,13 +1,13 @@
+**AIRBNB PROFIT IN MANILA PRE AND POST COVID, 2019-2023**
+
 ![alt text](https://chertify.com/wp-content/uploads/impt_docs/airbnb-cover.png?raw=true)
 
-Booking of Short Terms Stays Analysis
-
-Data: df_raw.xlsx<br/>
-Python: Short_Term_Stays(Data_Manipulation).ipynb
+Data: _df_raw.xlsx_<br/>
+Python: _Short_Term_Stays(Data_Manipulation).ipynb_
 
 Tableau Public:
-"Airbnb Profit in Manila Pre and Post COVID, 2019-2023
-https://public.tableau.com/app/profile/chertify
+"Airbnb Profit in Manila Pre and Post COVID, 2019-2023"
+https://public.tableau.com/app/profile/chertify/viz/AirbnbProfitinManilaPreandPostCOVID192019-2023/Dashboard5
 
 ---
 
@@ -36,3 +36,17 @@ We will be using Python for data preprocessing, exploratory data analysis, and T
 **THE DATASET**
 
 The data contains 277 entries and 11 variables.
+
+**Variables**
+
+- Date (object) - mm/dd/yyyy - One day after Start Date
+- Type (object) - (Reservation, Resolution Payout, Misc Credit, Resolution Adjustment, - - = Adjustment, Payout) - type of transaction
+- Confirmation Code (object) - transformed 10-letter string in reference to guest; with null
+- Start date (object) - date when transaction kicked in; with null
+- Nights (float64) - number of nights of stay
+- Currency (object) - currency received or sent
+- Amount (float64) - amount of transaction; with null if 'Type' Payout category
+- Paid Out (float64) - amount of transaction on 'Type' Payout category; with null
+- Host Fee (float64) - amount the host pays Airbnb service. This amount is already deducted from 'Amount' on 'Type' Reservation.
+- Cleaning Fee (float64) - amount included in the transaction on 'Type' reservation. This is the amount charged to guests.
+- Earning Year (float64) - year of earning
