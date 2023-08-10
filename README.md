@@ -2,8 +2,9 @@
 
 ![alt text](https://chertify.com/wp-content/uploads/impt_docs/airbnb-cover.png?raw=true)
 
-Data: _df_raw.xlsx_<br/>
-Python: _Short_Term_Stays(Data_Manipulation).ipynb_
+Dataset Source: df*raw.xlsx*<br/>
+Dataset Output: df_cmpt.xlsx<br/>
+Python: Short_Term_Stays(Data_Manipulation).ipynb
 
 Tableau Public:
 "Airbnb Profit in Manila Pre and Post COVID, 2019-2023"
@@ -40,7 +41,7 @@ The data contains 277 entries and 11 variables.
 **Variables**
 
 - Date (object) - mm/dd/yyyy - One day after Start Date
-- Type (object) - (Reservation, Resolution Payout, Misc Credit, Resolution Adjustment, - - = Adjustment, Payout) - type of transaction
+- Type (object) - (Reservation, Resolution Payout, Misc Credit, Resolution Adjustment, Adjustment, Payout) - type of transaction
 - Confirmation Code (object) - transformed 10-letter string in reference to guest; with null
 - Start date (object) - date when transaction kicked in; with null
 - Nights (float64) - number of nights of stay
