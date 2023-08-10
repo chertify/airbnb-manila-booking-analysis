@@ -2,7 +2,7 @@
 
 ![alt text](https://chertify.com/wp-content/uploads/impt_docs/airbnb-cover.png?raw=true)
 
-Dataset Source: df*raw.xlsx*<br/>
+Dataset Source: df_raw.xlsx<br/>
 Dataset Output: df_cmpt.xlsx<br/>
 Python: Short_Term_Stays(Data_Manipulation).ipynb
 
@@ -51,3 +51,7 @@ The data contains 277 entries and 11 variables.
 - Host Fee (float64) - amount the host pays Airbnb service. This amount is already deducted from 'Amount' on 'Type' Reservation.
 - Cleaning Fee (float64) - amount included in the transaction on 'Type' reservation. This is the amount charged to guests.
 - Earning Year (float64) - year of earning
+
+To view how data is processed and analyzed, please check the Python Notebook find on root directory:
+
+_Short_Term_Stays(Data_Manipulation).ipynb_
