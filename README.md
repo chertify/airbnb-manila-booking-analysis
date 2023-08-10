@@ -1,6 +1,6 @@
 **AIRBNB PROFIT IN MANILA PRE AND POST COVID, 2019-2023**
 
-![alt text](https://chertify.com/wp-content/uploads/impt_docs/airbnb-cover.png?raw=true)
+![alt text](https://github.com/chertify/airbnb-manila-booking-analysis/blob/images/airbnb-cover.png?raw=true)
 
 Dataset Source: df_raw.xlsx<br/>
 Dataset Output: df_cmpt.xlsx<br/>
