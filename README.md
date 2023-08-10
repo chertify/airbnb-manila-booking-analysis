@@ -55,5 +55,3 @@ The data contains 277 entries and 11 variables.
 To view how data is processed and analyzed, please check the Python Notebook found on root directory:
 
 _Short_Term_Stays(Data_Manipulation).ipynb_
-
-This is a test
