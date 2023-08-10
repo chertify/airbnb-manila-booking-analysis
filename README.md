@@ -52,6 +52,6 @@ The data contains 277 entries and 11 variables.
 - Cleaning Fee (float64) - amount included in the transaction on 'Type' reservation. This is the amount charged to guests.
 - Earning Year (float64) - year of earning
 
-To view how data is processed and analyzed, please check the Python Notebook find on root directory:
+To view how data is processed and analyzed, please check the Python Notebook found on root directory:
 
 _Short_Term_Stays(Data_Manipulation).ipynb_
